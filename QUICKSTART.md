@@ -44,7 +44,7 @@ This is the fastest way. You only need a text editor (like Google Docs, Notion, 
 Go to this URL in your browser:
 
 ```
-https://github.com/OpenNHE/sperb-benchmark/blob/main/scoring/EVALUATION_TEMPLATE.md
+https://github.com/Algotheorem/sperb-benchmark/blob/main/scoring/EVALUATION_TEMPLATE.md
 ```
 
 You will see a page of text with sections for each dimension.
@@ -87,7 +87,7 @@ PVS 8 + AIDS 7 + GDS 3 + CPOS 8 + ECS 8 + CSRS 7 + SCES 5 + CITS 7 = 53 / 80
 
 You can share your evaluation anywhere — your Instagram bio, your studio page, a tweet. Use this format:
 
-> *"[Persona name] — SPERB v1.0 score: [score]/100 — [Tier]. Evaluated by [your name/studio]. Full evaluation: [link to your Google Doc or Notion page]. Framework: github.com/OpenNHE/sperb-benchmark"*
+> *"[Persona name] — SPERB v1.0 score: [score]/100 — [Tier]. Evaluated by [your name/studio]. Full evaluation: [link to your Google Doc or Notion page]. Framework: github.com/Algotheorem/sperb-benchmark"*
 
 That's it. You're done.
 
@@ -109,7 +109,7 @@ Go to **github.com** and click **Sign up**. It's free. You only need an email ad
 
 A "repository" (or "repo") is just a folder of files on GitHub.
 
-Go to: `https://github.com/OpenNHE/sperb-benchmark`
+Go to: `https://github.com/Algotheorem/sperb-benchmark`
 
 You'll see the SPERB README page.
 
@@ -186,7 +186,7 @@ You need:
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/OpenNHE/sperb-benchmark.git
+git clone https://github.com/Algotheorem/sperb-benchmark.git
 cd sperb-benchmark/tools
 ```
 
@@ -345,7 +345,7 @@ Use this while filling in your evaluation.
 ## After You Get Your Score — What Next?
 
 ### If you scored Gold or Platinum (70+)
-- Add your tier to your bio: `SPERB v1.0 Gold | github.com/OpenNHE/sperb-benchmark`
+- Add your tier to your bio: `SPERB v1.0 Gold | github.com/Algotheorem/sperb-benchmark`
 - Submit your evaluation to the community index via PR (Method 2, Step 7)
 - Share the report publicly — it's a competitive differentiator for brand partnerships
 
@@ -386,12 +386,12 @@ Yes. SPERB is not a follower-count benchmark. It evaluates ethical posture and g
 
 ## Need Help?
 
-- Open a **Discussion** on the GitHub repository: `github.com/OpenNHE/sperb-benchmark/discussions`
+- Open a **Discussion** on the GitHub repository: `github.com/Algotheorem/sperb-benchmark/discussions`
 - Open an **Issue** if you think the rubric is unclear: use the template at `.github/ISSUE_TEMPLATE/`
 - Read the full specification: `framework/SPERB_SPECIFICATION.md`
 - Read the FAQ: `docs/FAQ.md`
 
 ---
 
-*SPERB v1.0 — Algotheorem / OpenNHE — CC BY 4.0*  
+*SPERB v1.0 — Algotheorem / Algotheorem — CC BY 4.0*  
 *Free to use with attribution. No permission required.*
