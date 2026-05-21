@@ -1,0 +1,43 @@
+name: Validate Evaluation Submission
+
+on:
+  pull_request:
+    paths:
+      - 'community/evaluations/**.md'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Check evaluation template compliance
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Validate evaluation files
+        run: |
+          FILES=$(git diff --name-only origin/main HEAD | grep 'community/evaluations/.*\.md' || true)
+          if [ -z "$FILES" ]; then
+            echo "No evaluation files to validate."
+            exit 0
+          fi
+          FAILED=0
+          for file in $FILES; do
+            echo "Checking $file..."
+            for dim in PVS AIDS GDS CPOS ECS CSRS SCES CITS; do
+              if ! grep -q "$dim" "$file"; then
+                echo "FAIL: Missing dimension $dim in $file"
+                FAILED=1
+              fi
+            done
+            if ! grep -q "Conflict of Interest" "$file"; then
+              echo "FAIL: Missing conflict of interest in $file"
+              FAILED=1
+            fi
+            if ! grep -q "Evaluator" "$file"; then
+              echo "FAIL: Missing evaluator info in $file"
+              FAILED=1
+            fi
+            if [ $FAILED -eq 0 ]; then echo "PASS: $file"; fi
+          done
+          exit $FAILED
