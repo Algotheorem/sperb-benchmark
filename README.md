@@ -11,7 +11,9 @@
 
 *A proposed global standard for the evaluation, classification, and governance of AI personas — for brands, platforms, regulators, creators, and researchers.*
 
-[🟢 **Start Here — Beginner Guide**](QUICKSTART.md) · [📖 Read the Specification](framework/SPERB-SPECIFICATION.md) · [🚀 Run Your Own Evaluation](QUICKSTAR.md) · [📊 View the Pilot Results](pilot/PILOT_RESULTS.md) · [🤝 Contribute](CONTRIBUTING.md)
+[🟢 **Start Here — Beginner Guide**](QUICKSTART.md) · [📖 Read the Specification](framework/SPERB-SPECIFICATION.md) · [🚀 Run Your Own Evaluation](QUICKSTART.md) · [📊 View the Pilot Results](pilot/PILOT_RESULTS.md) · [🤝 Contribute](CONTRIBUTING.md) 
+
+In Case the Links are broken, kindly navigate through the folders.
 
 </div>
 
