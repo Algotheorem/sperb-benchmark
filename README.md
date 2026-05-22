@@ -118,7 +118,7 @@ If you have never used GitHub before and just want to test your AI persona: **[Q
 
 ```bash
 # Clone the repository
-git clone https://github.com/OpenNHE/sperb-benchmark.git
+git clone https://github.com/Algotheorem/sperb-benchmark.git
 cd sperb-benchmark
 
 # Install dependencies
@@ -243,7 +243,7 @@ If you use SPERB in research, industry reports, or platform policy work, please 
 Mohanty, P. P., & Claude (Opus 4.7), Anthropic. (2026). SPERB: The Synthetic Persona 
 Ethics & Realism Benchmark — A Proposed Global Standard for the Evaluation, 
 Classification, and Governance of AI Influencers (Version 1.0). 
-Algotheorem / OpenNHE. https://github.com/OpenNHE/sperb-benchmark
+Algotheorem / OpenNHE. https://github.com/Algotheorem/sperb-benchmark
 ```
 
 ---
@@ -283,6 +283,6 @@ See [`LICENSE.md`](LICENSE.md) for full terms.
 *SPERB is not a ranking system.*
 *It is accountability infrastructure for the synthetic persona age.*
 
-**[⭐ Star this repo](https://github.com/OpenNHE/sperb-benchmark) · [📋 Use the template](scoring/EVALUATION_TEMPLATE.md) · [💬 Open a discussion](https://github.com/OpenNHE/sperb-benchmark/discussions)**
+**[⭐ Star this repo](https://github.com/Algotheorem/sperb-benchmark) · [📋 Use the template](scoring/EVALUATION_TEMPLATE.md) · [💬 Open a discussion](https://github.com/Algotheorem/sperb-benchmark/discussions)**
 
 </div>
